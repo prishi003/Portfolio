@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyanshi Mishra - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-content">
+            <h1 class="name-logo">Priyanshi Mishra</h1>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Project details</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#recommendations">Recommendations</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Icon -->
+    <div class="home-icon">
+        <i class="fas fa-home"></i>
+    </div>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="profile-image">
+                    <img src="mypic.jpeg"alt="Priyanshi Mishra Profile">
+                </div>
+                <div class="about-text">
+                    <h2>Hi, I'm Priyanshi Mishra! 💕</h2>
+                    <p>I am a passionate Computer Science Engineering student with a deep love for technology and innovation. Currently pursuing my degree, I'm fascinated by web development, artificial intelligence, and creating beautiful user experiences. I enjoy working with modern technologies like React, Python, and Java. My goal is to bridge the gap between creativity and technology, building solutions that are not only functional but also aesthetically pleasing. I'm always excited to learn new things and take on challenging projects that push my boundaries!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-python" style="color: #3776ab;"></i>
+                    <h3>Python</h3>
+                    <p>2 years experience</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-java" style="color: #f89820;"></i>
+                    <h3>Java</h3>
+                    <p>2.5 years experience</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-react" style="color: #61dafb;"></i>
+                    <h3>React</h3>
+                    <p>1.5 years experience</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-html5" style="color: #e34c26;"></i>
+                    <h3>HTML/CSS</h3>
+                    <p>2 years experience</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database" style="color: #336791;"></i>
+                    <h3>SQL</h3>
+                    <p>1.5 years experience</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-git-alt" style="color: #f05032;"></i>
+                    <h3>Git/GitHub</h3>
+                    <p>2 years experience</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-list">
+                <div class="project-item">
+                    <h3>Mental Health Detection Model</h3>
+                    <p>Developed a text classification Deep Learning model for Mental Health Detection finetuning Huggingface Transformers for my college project. 
+                    </div>
+                <div class="project-item">
+                    <h3>Personal Portfolio Website</h3>
+                    <p>Created a responsive and interactive personal portfolio website using HTML, CSS, and JavaScript. Features include smooth animations, contact forms, and a blog section. Implemented modern design principles and optimized for all devices. Deployed using GitHub Pages with custom domain.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Youtube AI summarizer </h3>
+                    <p>Built a Gen AI summarizer for Youtube videos, enabling the user to obtain quick, easy and compact information.
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recommendations Section -->
+    <section id="recommendations" class="recommendations-section">
+        <div class="container">
+            <h2>Recommendations</h2>
+            <div class="recommendations-grid" id="recommendationsGrid">
+                <div class="recommendation-card">
+                    <p>"Priyanshi is a brilliant student with excellent analytical and programming skills. Her dedication to learning new technologies and her creative approach to problem-solving sets her apart. She consistently produces high-quality assignments and actively participates in class discussions."</p>
+                    <div class="recommender">- Dr. Rajesh Kumar, Professor</div>
+                </div>
+                <div class="recommendation-card">
+                    <p>"I had the pleasure of working with Priyanshi on our college project. She's incredibly organized, detail-oriented, and brings fresh perspectives to every challenge. Her coding skills and teamwork abilities make her an excellent collaborator."</p>
+                    <div class="recommender">- Arjun Sharma, Classmate</div>
+                </div>
+                <div class="recommendation-card">
+                    <p>"Priyanshi demonstrated exceptional leadership during our hackathon team project. Her ability to combine technical skills with creative thinking resulted in an innovative solution. She's passionate about technology and has great potential for a successful career in CS."</p>
+                    <div class="recommender">- Priya Gupta, Team Leader</div>
+                </div>
+            </div>
+            
+            <div class="recommendation-form">
+                <h3>Leave a Recommendation</h3>
+                <form id="recommendationForm">
+                    <input type="text" id="recommenderName" placeholder="Name (Optional)" class="form-input">
+                    <textarea id="recommendationText" placeholder="Message" rows="5" class="form-textarea" required></textarea>
+                    <button type="submit" class="submit-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popup Modal -->
+    <div id="popup" class="popup-overlay">
+        <div class="popup-content">
+            <h3>Thank you!</h3>
+            <p>Your recommendation has been successfully added.</p>
+            <button onclick="closePopup()" class="popup-btn">OK</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
