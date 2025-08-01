@@ -7,24 +7,17 @@ This repository contains my personal portfolio website and a simple interest cal
 This project showcases my skills and experience as a Computer Science Engineering student. It includes:
 
 - A responsive portfolio website built with HTML, CSS, and JavaScript
-- A simple interest calculator shell script
 - Professional documentation and contribution guidelines
 
 ## Features
 
 - **Portfolio Website**: Interactive and responsive design showcasing projects, skills, and recommendations
-- **Simple Interest Calculator**: A shell script to calculate simple interest given principal, rate, and time
 
 ## Usage
 
 ### Portfolio Website
 Open `index.html` in your web browser to view the portfolio.
 
-### Simple Interest Calculator
-Run the shell script:
-```bash
-./simple-interest.sh
-```
 
 ## Files Structure
 
