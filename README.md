@@ -1,6 +1,6 @@
 # Portfolio Project
 
-This repository contains my personal portfolio website and a simple interest calculator script.
+This repository contains my personal portfolio website.
 
 ## About
 
