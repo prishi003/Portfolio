@@ -24,7 +24,6 @@ Open `index.html` in your web browser to view the portfolio.
 - `index.html` - Main portfolio webpage
 - `styles.css` - Styling for the portfolio
 - `script.js` - JavaScript functionality
-- `simple-interest.sh` - Simple interest calculator
 - `mypic.jpeg` - Profile image
 
 ## License
