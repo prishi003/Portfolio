@@ -30,14 +30,6 @@ Open `index.html` in your web browser to view the portfolio.
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
 
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
-
-## Code of Conduct
-
-This project adheres to a code of conduct. Please read [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for more details.
-
 ## Author
 
 **Priyanshi Mishra**
