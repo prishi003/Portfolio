@@ -1,6 +1,6 @@
 # Portfolio Project
 
-This repository contains my personal portfolio website.
+This repository contains my personal portfolio website. Developed during IBM Certification Course according to a given format. 
 
 ## About
 
